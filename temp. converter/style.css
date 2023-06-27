@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.container{
+    max-width: 450px;
+    background: #1ecfc3;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.title{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-wrap: wrap-reverse;
+   gap: 10px;
+
+}
+.temperture-icon{
+    font-size: 45px;
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    letter-spacing: 1.4px ;
+
+}
+#celcius,#fahrenheit,#kelvin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
